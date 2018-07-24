@@ -1,0 +1,47 @@
+.ceas{
+  width: 400px;
+  height: 400px;
+  background-color: #FFF;
+  border-radius: 50%;
+  border: 3px solid black;
+  border-style: groove;
+  margin-left: 600px;
+  margin-top: 200px;
+  background-image: image(Clock/Images/ceaswhand.png);
+  position: absolute;
+}
+
+.pozceas{
+
+
+}
+div.ceas img {
+    position: absolute;
+    margin-left=  10px;
+    margin-bottom= 20px;
+}
+
+.ora{
+  width: 200px;
+  height: 110px;
+  position: absolute;
+  font-size: 40px;
+  color: #FFF;
+  margin-left: 580px;
+  margin-top: 110px;
+}
+
+
+.line{
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 12px;
+  width: 179px;
+  height: 6px;
+  background-color: black;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition: all 0.05s;
+  transition-timing-function: cubic-bezier(0.34, 0.26, 0.74, 0.71)
+
+}
